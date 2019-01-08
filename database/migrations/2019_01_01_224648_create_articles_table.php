@@ -18,7 +18,7 @@ class CreateArticlesTable extends Migration
             $table->string('title');
             $table->text('content');
             $table->text('slug');
-            $table->integer('articlecategory_id');
+            $table->integer('category_id');
             $table->integer('visit')->default(0);
             $table->timestamps();
         });

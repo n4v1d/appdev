@@ -15,11 +15,8 @@ use Illuminate\Support\Facades\Auth;
 
 Auth::routes();
 
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
+// فعلا صفخه اصلی نداشته باشیم
+Route::get('/', 'ArticleController@Index');
 
 Route::get('/home', 'HomeController@index')->name('home');
 
@@ -58,4 +55,7 @@ Route::group(['prefix' => 'article'], function()
     Route::get('/', 'ArticleController@Index')->name('blogpost');
 
     Route::get('/{slug}', 'ArticleController@Show');
+
+    Route::get('/cat/{slug}', 'ArticleController@showByCategorySlug');
 });
+

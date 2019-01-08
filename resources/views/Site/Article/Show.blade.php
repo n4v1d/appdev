@@ -45,14 +45,14 @@
                             </figure>
                             <div class="blog__content">
                                 <a href="#" class="blog__title">
-                                    <h3>برتین طراحان در سال 2018</h3>
+                                    <h3>{{ $artiicle->title }}</h3>
                                 </a>
 
                                 <div class="blog__meta">
                                     <div class="author">
                                         <span class="icon-user"></span>
-                                        <p>توسط
-                                            <a href="#">تم فا</a>
+                                        <p>موضوع
+                                            <a href="/article/cat/{{$artiicle->category->slug}}">{{ $artiicle->category->name }}</a>
                                         </p>
                                     </div>
                                     <div class="date_time">
@@ -61,76 +61,12 @@
                                     </div>
                                     <div class="comment_view">
                                         <p class="comment">
-                                            <span class="icon-bubble"></span>45</p>
+                                            <span class="icon-bubble"></span>0</p>
                                         <p class="view">
-                                            <span class="icon-eye"></span>345</p>
+                                            <span class="icon-eye"></span>{{$artiicle->visit}}</p>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="single_blog_content">
-                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
-                                </p>
-
-                                <blockquote class="blockquote">
-                                    کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
-                                </blockquote>
-
-                                <h3>در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه </h3>
-                                <p>اهکارها و شرایط سخت تایپ
-                                    <a href="#">به پایان رسد </a>  وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
-
-                                <ol>
-                                    <li>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</li>
-                                    <li>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است..</li>
-                                    <li>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</li>
-                                </ol>
-
-                                <h3>تولید کننده لورم </h3>
-                                <img src="/images\blogimg.jpeg" alt="Blog image">
-
-                                <p>چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
-                                <ul>
-                                    <li>کتابهای زیادی در شصت و سه درصد گذشته</li>
-                                    <li>کتابهای زیادی در شصت و سه درصد گذشته</li>
-                                    <li>کتابهای زیادی در شصت و سه درصد گذشته</li>
-                                </ul>
-                                <img src="/images\nmg.jpeg" alt="">
-
-                                <h3>کتابهای زیادی در شصت و سه درصد گذشته</h3>
-                                <p>حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد..</p>
-
-                                <div class="share_tags">
-                                    <div class="share">
-                                        <p>اشتراک مطلب در :</p>
-                                        <div class="social_share">
-                                            <ul class="social_icons">
-                                                <li>
-                                                    <a href="#">
-                                                        <span class="fa fa-facebook"></span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <span class="fa fa-twitter"></span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <span class="fa fa-google-plus"></span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <span class="fa fa-linkedin"></span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <!-- end social_share -->
-                                    </div>
-                                    <!-- end bog_share_ara  -->
-                                </div>
+                                {!! $artiicle->content !!}
                             </div>
                         </article>
                     </div>
@@ -168,23 +104,7 @@
                         </div>
                         <!-- end /.sidebar-card -->
 
-                        <div class="sidebar-card card--blog_sidebar card--category">
-                            <div class="card-title">
-                                <h4>دسته های برتر</h4>
-                            </div>
-                            <div class="collapsible-content">
-                                <ul class="card-content">
-                                    <li>
-                                        <a href="/article/cat/wordpress">وردپرس
-
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                            <!-- end /.collapsible_content -->
-                        </div>
-                        <!-- end /.sidebar-card -->
+                        @include('Site.Article.Sidebar')
 
 
 

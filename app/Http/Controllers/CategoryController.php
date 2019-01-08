@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\ArticleCategory;
+use App\Category;
 use Illuminate\Http\Request;
 
-class ArticleCategoryController extends Controller
+class CategoryController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class ArticleCategoryController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\ArticleCategory  $articleCategory
+     * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function show(ArticleCategory $articleCategory)
+    public function show(Category $category)
     {
         //
     }
@@ -52,10 +52,10 @@ class ArticleCategoryController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\ArticleCategory  $articleCategory
+     * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function edit(ArticleCategory $articleCategory)
+    public function edit(Category $category)
     {
         //
     }
@@ -64,10 +64,10 @@ class ArticleCategoryController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\ArticleCategory  $articleCategory
+     * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, ArticleCategory $articleCategory)
+    public function update(Request $request, Category $category)
     {
         //
     }
@@ -75,10 +75,10 @@ class ArticleCategoryController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\ArticleCategory  $articleCategory
+     * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function destroy(ArticleCategory $articleCategory)
+    public function destroy(Category $category)
     {
         //
     }

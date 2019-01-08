@@ -44,7 +44,7 @@
                             <div class="col-lg-6 col-md-6" data-grid-prepared="true" >
                                 <div class="single_blog blog--card">
                                     <figure>
-                                        <a href="{{route('blogpost')}}/{{$articles->slug}}"><img src="images/blog2.jpeg" alt="Blog image">></a>
+                                        <a href="{{route('blogpost')}}/{{$articles->slug}}"><img src="/images/blog2.jpeg" alt="Blog image"></a>
 
                                         <figcaption>
                                             <div class="blog__content">
@@ -56,8 +56,8 @@
 
                                             <div class="blog__meta">
                                                 <div class="date_time">
-                                                    <span class="icon-clock"></span>
-                                                    <p>12 آبان 1397</p>
+                                                   &nbsp; دسته بندی:&nbsp;<a href="/article/cat/{{$articles->category->slug}}">{{ $articles->category->name }}</a>
+
                                                 </div>
                                                 <div class="comment_view">
                                                     <p class="comment">
@@ -75,7 +75,6 @@
                         @endforeach
 
                     </div>
-                    {{ $article->links() }}
                 </div>
                 <!-- end /.col-md-8 -->
 
@@ -105,31 +104,14 @@
                         </div>
                         <!-- end /.sidebar-card -->
 
-                        <div class="sidebar-card card--blog_sidebar card--category">
-                            <div class="card-title">
-                                <h4>دسته های برتر</h4>
-                            </div>
-                            <div class="collapsible-content">
-                                <ul class="card-content">
-                                    <li>
-                                        <a href="/article/cat/wordpress">وردپرس
-
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                            <!-- end /.collapsible_content -->
-                        </div>
-                        <!-- end /.sidebar-card -->
-
+                        @include('Site.Article.Sidebar')
 
 
                     </aside>
                     <!-- end /.aside -->
                 </div>
                 <!-- end /.col-md-4 -->
-
+                        {{ $article->links() }}
             </div>
             <!-- end /.row -->
         </div>

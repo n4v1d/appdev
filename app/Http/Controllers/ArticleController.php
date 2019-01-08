@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\article;
+use App\Category;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class ArticleController extends Controller
 {
@@ -14,6 +16,7 @@ class ArticleController extends Controller
      */
     public function index()
     {
+
         $article = Article::OrderBy('id','DESC')->paginate(10);
         return view('Site.Article.Index',compact('article'));
     }
@@ -47,9 +50,13 @@ class ArticleController extends Controller
      */
     public function show($slug)
     {
-        $article = Article::where('slug',$slug)->get();
+        $articles = Article::where('slug',$slug)->get();
 
-        return view('Site.Article.Show',compact('article'));
+        $artiicle = Article::find($articles[0]->id);
+
+        DB::table('articles')->where('id', $artiicle->id)->increment('visit');
+
+        return view('Site.Article.Show',compact('artiicle'));
     }
 
     /**
@@ -85,4 +92,18 @@ class ArticleController extends Controller
     {
         //
     }
+
+
+
+
+    public function showByCategorySlug($slug)
+    {
+        $category = Category::where('slug',$slug)->get();
+
+        $article = Article::where('category_id',$category[0]->id)->paginate(10);
+
+        return view('Site.Article.Index',compact('article'));
+
+    }
+
 }
