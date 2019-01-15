@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32b4fc63-b01e-428f-a015-302707b59ab3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Site/Article/Sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/appdev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/appdev.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ArticleCategory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleCategoryController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_01_01_224648_create_articles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_01_01_224648_create_articles_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_01_02_001220_create_article_categories_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Site/Article/Index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Site/Article/Index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Site/Article/Show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Site/Article/Show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Site/Section/Footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Site/Section/Footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,13 +17,14 @@
     <session id="-2072498725">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -87,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
+            <state relative-caret-position="136">
               <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
             </state>
           </provider>
@@ -96,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
+            <state relative-caret-position="1683">
               <caret line="102" column="78" selection-start-line="102" selection-start-column="78" selection-end-line="102" selection-end-column="78" />
             </state>
           </provider>
@@ -105,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/Site/Section/Footer.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="194">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -114,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/Site/Article/Index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
+            <state relative-caret-position="1921">
               <caret line="113" column="37" selection-start-line="113" selection-end-line="114" />
             </state>
           </provider>
@@ -310,7 +291,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,12 +328,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Index&#9;FILE&#9;file://C:/xampp/htdocs/appdev/resources/views/Site/Article/Index.blade.php&#10;we&#9;FILE&#9;file://C:/xampp/htdocs/appdev/routes/web.php&#10;web.php&#9;FILE&#9;file://C:/xampp/htdocs/appdev/routes/web.php&#10;meg&#9;FILE&#9;file://C:/xampp/htdocs/appdev/resources/views/Site/Section/MegaMenu.blade.php&#10;mega&#9;FILE&#9;file://C:/xampp/htdocs/appdev/resources/views/Site/Section/MegaMenu.blade.php&#10;ئثلش&#9;FILE&#9;file://C:/xampp/htdocs/appdev/resources/views/Site/Section/MegaMenu.blade.php&#10;mas&#9;FILE&#9;file://C:/xampp/htdocs/appdev/resources/views/Site/master.blade.php&#10;ئث&#9;FILE&#9;file://C:/xampp/htdocs/appdev/resources/views/Site/Section/MegaMenu.blade.php&#10;hea&#9;FILE&#9;file://C:/xampp/htdocs/appdev/resources/views/Site/Section/Header.blade.php&#10;ئشس&#9;FILE&#9;file://C:/xampp/htdocs/appdev/resources/views/Site/master.blade.php&#10;صث&#9;FILE&#9;file://C:/xampp/htdocs/appdev/routes/web.php&#10;foot&#9;FILE&#9;file://C:/xampp/htdocs/appdev/resources/views/Site/Section/Footer.blade.php&#10;اثش&#9;FILE&#9;file://C:/xampp/htdocs/appdev/resources/views/Site/Section/Header.blade.php&#10;web.&#9;FILE&#9;file://C:/xampp/htdocs/appdev/routes/web.php&#10;homestead&#9;null&#9;null&#10;appser&#9;FILE&#9;file://C:/xampp/htdocs/appdev/app/Providers/AppServiceProvider.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shops" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -392,12 +373,13 @@
       <workItem from="1546435189825" duration="203000" />
       <workItem from="1546465300378" duration="10494000" />
       <workItem from="1546559237883" duration="995000" />
-      <workItem from="1546979763057" duration="3883000" />
+      <workItem from="1546979763057" duration="6883000" />
+      <workItem from="1546995346577" duration="196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31720000" />
+    <option name="totallyTimeSpent" value="34916000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -410,9 +392,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26705757" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26972282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -427,8 +408,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.15618221" />
-      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.4902386" />
+      <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -628,9 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#33#50#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -661,31 +639,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Site/Article/Index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="113" column="37" selection-start-line="113" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
+        <state relative-caret-position="136">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
+        <state relative-caret-position="1683">
           <caret line="102" column="78" selection-start-line="102" selection-start-column="78" selection-end-line="102" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Site/Article/Index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="113" column="37" selection-start-line="113" selection-end-line="114" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Site/Section/Footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="194">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
         </state>
       </provider>
     </entry>
